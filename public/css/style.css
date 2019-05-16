@@ -1,0 +1,58 @@
+body {
+	background-color: #272F3D;
+	font-family: 'Lekton', sans-serif;
+	font-size: 1.5em;
+}
+.loggadiv {
+	margin-top: 3%;
+	text-align: center;
+}
+.searchdiv {
+	text-align: center;
+	margin-top: 2%;
+}
+.howitworksdiv {
+	text-align: center;
+	margin-top: 3%;
+}
+.howitworkstext {
+	color: #645d84;
+	text-decoration: underline #645d84;
+}
+.howitworkstext:active {
+	color: #4d4866;
+	text-decoration: underline #4d4866;
+}
+.buttondiv {
+	text-align: center;
+	margin-top: 5%;
+}
+input[type=text] {
+  width: 500px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+input[type=text]:focus {
+	outline: 0px;
+}
+button:focus {
+	outline: 0px;
+}
+button:active {
+	background-color: #4d4866;
+}
+button:hover {
+	cursor: pointer;
+}
+.button {
+	font-family: 'Lekton', sans-serif;
+	font-size: 1em;
+	border-radius: 8px;
+	background-color: #645d84;
+	border: none;
+	color: white;
+}
