@@ -4,14 +4,20 @@ body {
 	font-size: 1.5em;
 }
 .loggadiv {
-	margin-top: 3%;
 	text-align: center;
+	margin-top: 3%;
 }
 .searchdiv {
 	text-align: center;
 	margin-top: 2%;
 }
 .howitworksdiv {
+	text-align: center;
+	margin-top: 3%;
+	padding-right: 20%;
+	padding-left: 20%;
+}
+#searchresultdiv {
 	text-align: center;
 	margin-top: 3%;
 }
