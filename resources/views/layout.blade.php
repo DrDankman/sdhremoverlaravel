@@ -14,10 +14,10 @@
 		</a>
 	</div>
 	<div class="searchdiv">
-		<input type="text" name="FirstName" placeholder="Search for subtitles...">
+		<input id="search" type="text" name="FirstName" placeholder="Search for subtitles..." onkeyup="entersearch()">
 	</div>
 	@yield('content')
 
-	<!--<script src="script.js"></script>-->
+	<script src="/js/script.js"></script>
 </body>
 </html>
